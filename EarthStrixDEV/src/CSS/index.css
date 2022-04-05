@@ -18,8 +18,6 @@
     margin: 0;
     padding: 0;
     border-bottom: 1px solid rgba(224, 224, 224, 0.651);
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
     box-shadow: 5px 0 7px rgba(7, 7, 7, 0.144);
 }
 
@@ -29,6 +27,8 @@
     padding: 30px;
     list-style-type: none;
     background-color:white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 .head-co1 ul li {
@@ -58,6 +58,7 @@
 
 .head-co1 #input-group {
     width: 50%;
+    padding: 40px;
 }
 
 #theme-btn {
