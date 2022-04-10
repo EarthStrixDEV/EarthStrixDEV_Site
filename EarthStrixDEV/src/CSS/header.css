@@ -80,3 +80,45 @@
     background-color: black;
     color: white;
 }
+
+.footer-co {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    background-color: rgba(226, 226, 226, 0.185);
+    border-top: 1px solid rgba(0, 0, 0, 0.178);
+}
+
+.icon-social-media {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-social-media img {
+    width: 90px;
+    height: 90px;
+    padding: 20px;
+}
+
+#email-co {
+    background-color: rgba(180, 180, 180, 0.363);
+    padding: 30px;
+    border-radius:20px;
+}
+
+#email-co button {
+    margin-top: 10px;
+}
+
+.copyright {
+    border-top: 1px solid rgba(0, 0, 0, 0.178);
+    background-color:rgba(212, 212, 212, 0.349);
+}
+
+.copyright p {
+    text-align: center;
+    font-size: var(--font-size-std);
+    padding: 3rem;
+    margin: 0;
+}
+

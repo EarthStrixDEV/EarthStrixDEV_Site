@@ -1,11 +1,13 @@
 var btn = document.querySelectorAll('button');
 var name_category = document.getElementById('name-category');
 var name_user = document.getElementById("name-user");
+var body_con = document.getElementById('body');
 
 console.log(name_category);
 console.log(name_user);
+console.log(body_con);
 
-btn[0].addEventListener('click', () => {
+btn[4].addEventListener('click', () => {
     let getdata_prompt = prompt("Enter your name");
     if (getdata_prompt != "")
     {

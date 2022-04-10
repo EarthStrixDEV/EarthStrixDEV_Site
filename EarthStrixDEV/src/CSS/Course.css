@@ -11,6 +11,29 @@
   padding: 20px;
 }
 
+.float-btn-co {
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+.float-btn-co button {
+  float: left;
+  border: 1px solid rgb(77, 18, 212);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(77, 18, 212);
+  color: white;
+  transition: all 0.3s ease-in-out; 
+}
+
+.float-btn-co button:hover {
+  border: 1px solid rgba(76, 18, 212, 0.603);
+  background-color: rgba(76, 18, 212, 0.692);
+}
+
 .box {
   width: auto;
   margin: 2rem;
