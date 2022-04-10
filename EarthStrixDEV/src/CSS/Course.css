@@ -1,0 +1,56 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#name-user,
+#name-category {
+  margin: 10px;
+  padding: 20px;
+}
+
+.box {
+  width: auto;
+  margin: 2rem;
+}
+
+.box .header-name-video {
+  border-top: 1px solid rgba(0, 0, 0, 0.212);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+}
+
+.box .header-name-video h1 {
+  padding: 2rem;
+  text-align: center;
+}
+
+.box .iframe-co {
+  margin: 30px;
+  align-items: center;
+}
+
+.box .iframe-co iframe {
+  align-self: center;
+  width: 930px;
+  height: 540px;
+}
+
+.box .title-co p {
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.box .title-co ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.box .title-co ul li {
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+}

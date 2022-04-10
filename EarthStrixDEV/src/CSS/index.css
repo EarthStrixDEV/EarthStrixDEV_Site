@@ -8,68 +8,13 @@
 
 * {
     margin:auto;
-    padding:auto;
-    box-sizing: border-box;
+    padding: auto;
     font-family: var(--font-family-main);
-}
-
-.head-co1 {
-    background-color: rgba(224, 224, 224, 0.651);
-    margin: 0;
-    padding: 0;
-    border-bottom: 1px solid rgba(224, 224, 224, 0.651);
-    box-shadow: 5px 0 7px rgba(7, 7, 7, 0.144);
-}
-
-.head-co1 ul {
-    display: flex;
-    flex-direction: row;
-    padding: 30px;
-    list-style-type: none;
-    background-color:white;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-}
-
-.head-co1 ul li {
-    margin: auto;
-}
-
-.head-co1 ul a {
-    text-decoration: none;
-    font-size: var(--font-size-std);
-    font-family: var(--font-family-main);
-    padding:30px;
-    transition: all 0.2s ease-in-out;
-}
-
-.head-co1 ul a:hover {
-    background-color: rgba(213, 213, 214, 0.432);
-    border-bottom: 1px solid blue;
-}
-
-.head-co1 h2 {
-    padding: 50px;
-    font-family: 'Kanit', sans-serif;
-    font-weight: 900;
-    font-size: 2.5rem;
-    font-family: var(--font-family-main);
-}
-
-.head-co1 #input-group {
-    width: 50%;
-    padding: 40px;
-}
-
-#theme-btn {
-    width: 100px;
-    height: 50px;
-    margin-left: 30px;
 }
 
 .name-container {
     padding-left: 5rem;
-    padding-top: 5rem;
+    padding-top: 2rem;
 }
 
 .main-co1 {
@@ -100,6 +45,8 @@
 }
 
 .box .img-co img {
+
+
     width: 130px;
     height: 130px;
     align-self: center;
@@ -146,6 +93,7 @@
 .text-about p {
     font-size: var(--font-size-p);
     font-family: var(--font-family-main);
+    text-align: center;
 }
 
 .img-co-po img {
@@ -183,19 +131,20 @@
 }
 
 .copyright {
-    padding-top: 1.5rem;
     border-top: 1px solid rgba(0, 0, 0, 0.178);
+    background-color:rgba(212, 212, 212, 0.349);
 }
 
 .copyright p {
-    padding: 20px;
     text-align: center;
     font-size: var(--font-size-std);
+    padding: 3rem;
+    margin: 0;
 }
 
 /* ---------- */
 
 .darkMode {
-    background-color: rgba(22, 22, 22, 0.452);
+    background-color: rgba(22, 22, 22, 0.281);
     color: white;
 }
