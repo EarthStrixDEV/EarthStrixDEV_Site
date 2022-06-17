@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course</title>
+    <link rel="stylesheet" href="CSS/Course.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src=JS/Event.js"></script>
+    <script src=JS/Windows.js"></script>
+</head>
+<body onload="checkWindowsLoad()">
+    <%- include('Navbar') %>
+    <div id="body">
+        <%- include('NavButton') %>
+        <div class="float-btn-co">
+            <button type="button" class="float-co">Show Name</button>
+            <button type="button" class="float-co">Theme</button>
+            <button type="button" class="float-co">Former</button>
+        </div>
+        <div class="name-header-info">
+            <h1 id="name-user" align="center"></h1>
+            <h2 id="name-category" align='center'>Course : Web Development</h2>
+        </div>
+        <div class="main-container">
+            <div class="box">
+                <div class="header-name-video">
+                    <h1 class="name-header-course">คอร์สเรียน HTML</h1>
+                </div>
+                <div class="iframe-co">
+                    <iframe src="https://www.youtube.com/embed/0hfeNPM7piw?list=PLltVQYLz1BMDf-N2ZmyJKEv4VlpM_9m67" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="title-co">
+                    <p>
+                        คอร์สเรียนพื้นฐานการสร้างเว็บด้วย HTML สำหรับผู้เริ่มต้น<br>
+                        รายละเอียดคร่าวๆดังนี้
+                    </p>
+                    <ul>
+                        <li>Heading</li>
+                        <li>Layout</li>
+                        <li>List Table</li>
+                        <li>Div Span</li>
+                        <li>Class ID</li>
+                        <li>Form Input</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box">
+                <div class="header-name-video">
+                    <h1 class="name-header-course">คอร์สเรียน CSS</h1>
+                </div>
+                <div class="iframe-co">
+                    <iframe src="https://www.youtube.com/embed/HcInSUzhaUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="iframe-co">
+                    <iframe src="https://www.youtube.com/embed/EdbWjGkPlUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="title-co">
+                    <p>
+                        คอร์สเรียนพื้นฐานการตกแต่งเว็บด้วย CSS สำหรับผู้เริ่มต้น<br>
+                        รายละเอียดคร่าวๆดังนี้
+                    </p>
+                    <ul>
+                        <li>Margin Padding</li>
+                        <li>Width Height</li>
+                        <li>Display Flex</li>
+                        <li>Responsive Design</li>
+                        <li>Transform Transition</li>
+                        <li>Border</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box">
+                <div class="header-name-video">
+                    <h1 class="name-header-course">คอร์สเรียน JavaScript</h1>
+                </div>
+                <div class="iframe-co">
+                    <iframe src="https://www.youtube.com/embed/AbjY-ajKgSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="title-co">
+                    <p>
+                        คอร์สเรียนพื้นฐานการควบคุมเว็บแบบ Dynamic และทำระบบ Interactive เว็บไซต์ด้วย JavaScript สำหรับผู้เริ่มต้น<br>
+                        รายละเอียดคร่าวๆดังนี้
+                    </p>
+                    <ul>
+                        <li>Variable</li>
+                        <li>Condition</li>
+                        <li>Function</li>
+                        <li>Array</li>
+                        <li>Class</li>
+                        <li>DOM</li>
+                        <li>Event</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box">
+                <div class="header-name-video">
+                    <h1 class="name-header-course">คอร์สเรียน React.js</h1>
+                </div>
+                <div class="iframe-co">
+                    <iframe src="https://www.youtube.com/embed/KvNfS86KEA4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="iframe-co">
+                    <iframe src="https://www.youtube.com/embed/3ubQZb-99fI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="title-co">
+                    <p>
+                        คอร์สเรียนพื้นฐานการพัฒนาเว็บฝั่ง Front-End ด้วย React.js สำหรับผู้เริ่มต้น<br>
+                        รายละเอียดคร่าวๆดังนี้
+                    </p>
+                    <ul>
+                        <li>Basic JavaScript</li>
+                        <li>JSX</li>
+                        <li>JSX Style</li>
+                        <li>Props</li>
+                        <li>useEffect</li>
+                        <li>React Hooks</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box">
+                <div class="header-name-video">
+                    <h1 class="name-header-course">คอร์สเรียน Node.js</h1>
+                </div>
+                <div class="iframe-co">
+                    <iframe src="https://www.youtube.com/embed/mDezAkh5gcE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="iframe-co">
+                    <iframe src="https://www.youtube.com/embed/AR5KUIsTebk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="title-co">
+                    <p>
+                        คอร์สเรียนพื้นฐานการพัฒนาเว็บฝั่ง Backend และสร้าง Web Server ด้วย Node.js สำหรับผู้เริ่มต้น<br>
+                        รายละเอียดคร่าวๆดังนี้
+                    </p>
+                    <ul>
+                        <li>Async/Await</li>
+                        <li>Module</li>
+                        <li>Create Web Server with Node.js</li>
+                        <li>Router</li>
+                        <li>Express</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="credit-video">
+                <p>Credit by KongRuksiam <button type="button" id="go-to-link">Click Here</button></p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-co">
+        <div class="icon-social-media">
+            <img src="../img/600px-Facebook_Logo_(2019).png" alt="facebook">
+            <label for="#">Warapon Jitsook</label>
+            <img src="../img/Instagram_logo_2016.svg.png" alt="instagram">
+            <label for="#">_earthstrix</label>
+            <img src="../img/900px-Octicons-mark-github.svg.png" alt="github">
+            <label for="#">EarthStrixDEV</label>
+        </div>
+        <div class="technology-info">
+            <strong>HTML CSS JS</strong>
+        </div>
+        </div>
+        <div class="request-email">
+            <div class="mb-3" id="email-co">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <p>Copyright&copy; EarthStrixDEV</p>
+    </div>
+    <script src="./JS/Event.js"></script>
+    <script src="./JS/Windows.js"></script>
+    <script src="../routes/router.js"></script>
+</body>
+</html>
