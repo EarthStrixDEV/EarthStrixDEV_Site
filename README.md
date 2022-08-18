@@ -1,5 +1,5 @@
 # EarthStrixDEV_Site
-**My Portfoiio Site ,EarthStrix**
+**My Portfoilo Site ,EarthStrix**
 > Front End
 * HTML (ejs)
 * CSS
