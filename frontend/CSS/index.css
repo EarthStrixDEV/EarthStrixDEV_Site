@@ -33,11 +33,60 @@
     margin: 1.5rem;
     padding: 10px;
     align-items: center;
-    transition: box-shadow 0.2s ease-in-out;
+    transition:all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
 }
 
 .box:hover {
-    box-shadow: 5px 5px 7px rgba(7, 7, 7, 0.164);
+    background: linear-gradient(268deg, #0b8fc1, #f90bdb);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 6s ease infinite;
+    -moz-animation: AnimationName 6s ease infinite;
+    animation: AnimationName 6s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 54%
+    }
+
+    50% {
+        background-position: 100% 47%
+    }
+
+    100% {
+        background-position: 0% 54%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 54%
+    }
+
+    50% {
+        background-position: 100% 47%
+    }
+
+    100% {
+        background-position: 0% 54%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 54%
+    }
+
+    50% {
+        background-position: 100% 47%
+    }
+
+    100% {
+        background-position: 0% 54%
+    }
 }
 
 .box .img-co {

@@ -2,10 +2,10 @@
   "name": "javascript",
   "version": "1.0.0",
   "description": "node test sever",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon index.js"
+    "node": "nodemon index.js"
   },
   "repository": {
     "type": "git",
