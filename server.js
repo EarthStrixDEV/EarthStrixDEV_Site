@@ -9,4 +9,4 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, './frontend/views'));
 app.use(router);
 
-app.listen(port, () => console.log(`Server hosting on port ${port}`))
+app.listen(port, () => console.log(`Server is hosting on port ${ port }`))

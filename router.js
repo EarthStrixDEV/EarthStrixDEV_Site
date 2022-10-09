@@ -4,6 +4,10 @@ const path = require('path');
 const router = express.Router();
 
 router.get('/', (req, res) => {
+    res.render('Welcome');
+})
+
+router.get('/home', (req, res) => {
     res.render('Home');
 })
  

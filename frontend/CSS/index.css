@@ -39,12 +39,12 @@
 }
 
 .box:hover {
-    background: linear-gradient(268deg, #0b8fc1, #f90bdb);
+    background: linear-gradient(250deg, #2ac5fd, #f90bd9b6 ,#e2acffb6);
     background-size: 600% 600%;
 
-    -webkit-animation: AnimationName 6s ease infinite;
-    -moz-animation: AnimationName 6s ease infinite;
-    animation: AnimationName 6s ease infinite;
+    -webkit-animation: AnimationName 3s ease infinite;
+    -moz-animation: AnimationName 3s ease infinite;
+    animation: AnimationName 3s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
@@ -146,11 +146,4 @@
 .img-co-po img {
     width: 720px;
     height: 400px;
-}
-
-/* ---------- */
-
-.darkMode {
-    background-color: rgba(22, 22, 22, 0.281);
-    color: white;
 }
